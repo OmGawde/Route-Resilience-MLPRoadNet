@@ -1,2 +1,6 @@
 # MLPRoadNet-SpaceNet-Vegas
-MLPRoadNet: A Dilated DSD Encoder and MLP-Mixer Framework for Topology-Aware Road Extraction 
+<div align="center">
+
+> 🛰️ **MLPRoadNet** leverages hybrid CNN–MLP intelligence, multi-scale context aggregation, and topology-aware decoding to extract accurate and connected road networks from high-resolution satellite imagery—even under severe occlusions.
+
+</div>
