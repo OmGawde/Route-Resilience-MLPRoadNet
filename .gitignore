@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# Conda
+conda-meta/
+
+# Logs
+logs/
+*.log
+
+# Dataset
+dataset/
+data/
+patches/
+
+# Cache
+.cache/
+*.cache
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# ONNX
+*.onnx
+
+# Temporary
+tmp/
+temp/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# TensorBoard
+runs/
+
+# Results (optional)
+results/generated/
+
+# Large exports
+exports/*.pt
+exports/*.pth
