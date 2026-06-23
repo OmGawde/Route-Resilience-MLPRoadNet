@@ -1,0 +1,41 @@
+name: mlproadnet
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  - numpy
+  - pandas
+  - scipy
+
+  - matplotlib
+  - seaborn
+
+  - scikit-learn
+
+  - opencv
+
+  - pillow
+
+  - tqdm
+
+  - pyyaml
+
+  - jupyter
+  - notebook
+
+  - pip
+
+  - pip:
+      - albumentations
+      - torchinfo
+      - onnx
+      - onnxruntime
