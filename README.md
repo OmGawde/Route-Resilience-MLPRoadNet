@@ -4,7 +4,6 @@
 
 ### A Novel Hybrid MLP–CNN Architecture for Road Extraction from Satellite Imagery
 
-<img src="assets/banner.png" alt="MLPRoadNet Banner" width="100%"/>
 
 *Encoder–ASPP–MLP-Mixer–Dual-Branch architecture for binary road segmentation on SpaceNet Vegas*
 
@@ -673,8 +672,17 @@ This project is released under the **MIT License**. See [`LICENSE`](LICENSE) for
 
 ## 👤 23. Author
 
-**<Your Name>**
-🔗 [GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-username>) · [Portfolio](https://yourportfolio.dev)
+<p align="center">
+  <a href="https://github.com/shrutmpatil"><img src="https://img.shields.io/badge/Shrut-Patil-blue?style=for-the-badge&logo=github" alt="Shrut Patil GitHub"></a>
+  <a href="https://github.com/siddhilad920"><img src="https://img.shields.io/badge/Siddhi-Lad-lightgrey?style=for-the-badge&logo=github" alt="Siddhi Lad GitHub"></a>
+</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/shrutmpatil/">
+    <img src="https://img.icons8.com/color/48/000000/linkedin.png" width="50"/>
+  <a href="https://www.linkedin.com/in/lad-siddhi/">
+    <img src="https://img.icons8.com/color/48/000000/linkedin.png" width="50"/>
+  </a>
+</p>
 
 ---
 
