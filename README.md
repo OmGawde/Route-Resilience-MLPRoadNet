@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-Enabled-green.svg)](https://developer.nvidia.com/cuda-zone)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Hackathon](https://img.shields.io/badge/Bharat%20Antariksh%20Hackathon-ISRO%20%7C%20MeitY-orange.svg)](https://isro.gov.in)
 
 > **Autonomous Road Network Extraction, Topological Gap Healing, and Urban Disaster Resilience Analysis from High-Resolution Earth Observation Imagery.**
