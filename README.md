@@ -63,8 +63,8 @@ Input Satellite Tile (3 x 512 x 512)
 
 ```bash
 # Clone repository
-git clone https://github.com/OmGawde/Route-Resilience-MLPRoadNet.git
-cd Route-Resilience-MLPRoadNet
+git clone https://github.com/OmGawde/MLPRoadNet-Route-NeuralGrid.git
+cd MLPRoadNet-Route-NeuralGrid
 
 # Create and activate virtual environment (Optional but Recommended)
 python -m venv venv
@@ -122,7 +122,7 @@ python scripts/finetune.py --checkpoint trained_models/best_model_finetuned.pth 
 ## 📂 Project Structure
 
 ```
-Route-Resilience-MLPRoadNet/
+MLPRoadNet-Route-NeuralGrid/
 ├── configs/
 │   └── default.yaml                    # Base training & model hyperparameters
 │
