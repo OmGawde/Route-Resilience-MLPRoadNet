@@ -22,10 +22,14 @@ conda-meta/
 logs/
 *.log
 
-# Dataset
+# Dataset & Outputs
 dataset/
 data/
 patches/
+output/
+.gemini/
+*.zip
+*.tar.gz
 
 # Cache
 .cache/

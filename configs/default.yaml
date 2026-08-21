@@ -1,0 +1,48 @@
+# ═══════════════════════════════════════════════════════════════
+#  MLPRoadNet — Default Configuration
+#  Override paths via CLI: --data-root, --output-dir
+# ═══════════════════════════════════════════════════════════════
+
+# ── Data ──────────────────────────────────────────────────────
+data:
+  data_root: "dataset"          # Root folder containing images/ and masks/
+  images_dir: "images"
+  masks_dir: "masks"
+  img_ext: [".tif", ".tiff", ".png", ".jpg"]
+
+# ── Output ────────────────────────────────────────────────────
+output:
+  output_dir: "output"          # Destination for checkpoints, patches, results, exports
+
+# ── Patch Extraction ──────────────────────────────────────────
+patches:
+  patch_size: 512
+  patch_stride: 384             # overlap = patch_size - stride = 128
+  min_road_ratio: 0.01          # discard patches with < 1% road pixels
+
+# ── Dataset Split ─────────────────────────────────────────────
+split:
+  test_split: 0.15
+
+# ── Training ──────────────────────────────────────────────────
+training:
+  batch_size: 2                 # keep low for VRAM safety
+  num_workers: 0                # 0 = main thread (Windows safe)
+  epochs: 120
+  patience: 8                   # early-stopping patience
+  lr: 3.0e-4
+  weight_decay: 1.0e-4
+  grad_clip: 1.0
+
+# ── Model ─────────────────────────────────────────────────────
+model:
+  base_channels: 32             # lightweight; scale up if GPU allows
+  mlp_depth: 4                  # MLP-Mixer layers in bottleneck
+
+# ── Noisy-Label Robustness ────────────────────────────────────
+noise:
+  label_smooth: 0.05            # soft target smoothing
+  noise_reg_weight: 0.1         # adversarial consistency loss weight
+
+# ── Reproducibility ───────────────────────────────────────────
+seed: 42
